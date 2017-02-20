@@ -1,0 +1,2 @@
+C:\Users\Kenneth B\AppData\Local\Temporary Projects\Blodig-Alvor-Vanadium\bin\Debug\Blodig-Alvor-Vanadium.exe.config
+C:\Users\Kenneth B\Documents\GitHub\Prosjekt-Vanadium\Blodig-Alvor-Vanadium\Blodig-Alvor-Vanadium\bin\Debug\Blodig-Alvor-Vanadium.exe.config
