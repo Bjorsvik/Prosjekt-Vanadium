@@ -26,6 +26,8 @@ Partial Class Form1
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
+        Me.TEST = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -60,11 +62,21 @@ Partial Class Form1
         Me.TextBox2.Size = New System.Drawing.Size(100, 22)
         Me.TextBox2.TabIndex = 3
         '
+        'TEST
+        '
+        Me.TEST.AutoSize = True
+        Me.TEST.Location = New System.Drawing.Point(458, 201)
+        Me.TEST.Name = "TEST"
+        Me.TEST.Size = New System.Drawing.Size(36, 17)
+        Me.TEST.TabIndex = 4
+        Me.TEST.Text = "Test"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(965, 413)
+        Me.Controls.Add(Me.TEST)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.TextBox1)
@@ -80,4 +92,6 @@ Partial Class Form1
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents TEST As Label
 End Class
